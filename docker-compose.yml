@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  archival-management:
+    build: .
+    container_name: archival-management
+    ports:
+      - 8098:8098
